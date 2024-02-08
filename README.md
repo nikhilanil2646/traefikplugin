@@ -1,4 +1,4 @@
-# Rewrite Header
+# Traefik Plugin
 
 Rewrite header is a middleware plugin for [Traefik](https://traefik.io) which replace a header in the response
 
@@ -13,8 +13,8 @@ pilot:
 experimental:
   plugins:
     rewriteHeaders:
-      modulename: "github.com/vincentinttsh/rewriteheaders"
-      version: "v1.0.0"
+      modulename: "github.com/nikhilanil2646/traefikplugin"
+      version: "v0.1.0"
 ```
 
 ### Dynamic
